@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: #f3e8ff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+fieldset {
+    width: 385px;
+    height: 360px;
+    border: 2px solid #ccc;
+    background-color: #fff;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #761ac1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    align-self: flex-start;
+    margin-left: 25px;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #853aa8;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    width: 330px;
+    height: 45px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline-color: rgba(137, 43, 226, 0.378);
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+input[type="submit"] {
+    height: 50px;
+    border: none;
+    background-color: rgb(125, 16, 123);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(145, 36, 143);
+}
+
+p {
+    margin-top: 12px;
+    text-align: center;
+    font-size: 16px;
+    color: #761ac1;
+}

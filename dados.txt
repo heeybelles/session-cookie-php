@@ -1,0 +1,16 @@
+O meu GitHub deu problema, peço por gentileza que ignore as pastas acima e siga apenas os arquivos fora dela.
+
+Dados cadastrados:
+
+
+Gabi,gabi@gmail.com,1234
+
+Eduarda,belles@gamil.com,123
+
+Dudaa,du@gmail.com,d123
+
+Dudaa,du@gmail.com,123
+
+Dudaa,du@gmail.com,123
+
+auau,gabi@gmai.com,123
