@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  background: linear-gradient(180deg, #a8c0f4 0%, #2b4377 110%);
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  background: #fff;
+  width: 400px;
+  margin: 40px auto;
+  padding: 25px 0 40px 0;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.container:hover{
+  transform: scale(1.01); 
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #1f2a44; 
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-top: 80px;
+}
+
+h3{
+  text-align: center;
+  color: #1f2a44; 
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.obs{
+  color: #3746b0;
+  font-size: 14px;
+  margin-bottom: 20px;
+  padding: 0 25px;
+}
+
+.mensagem{
+  color: red;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+form{
+  width: 100%;
+  margin-top: 20px;
+}
+
+label{
+  display: block;
+  text-align: left;
+  width: 300px;
+  margin: 10px auto 5px auto;
+  color: #1f2a44;
+  font-weight: bold;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+input[type="password"]{
+  width: 300px;
+  height: 40px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-left: 10px;
+  outline-color: #4f59ed;
+}
+
+button.btn{
+  margin-top: 20px;
+  width: 300px;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: linear-gradient(180deg, #1f2a44 0%, #0f1626 100%);
+  color: white;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button.btn:hover {
+  background: linear-gradient(180deg, #364770 0%, #17223b 100%);
+  transform: translateY(-2px);
+}
+
+button.btn:hover {
+  background: linear-gradient(180deg, #263453 0%, #0f1626 100%);
+}
+
+.voltar-dashboard {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.btn-voltar {
+  display: inline-block;
+  padding: 12px 25px;
+  background: linear-gradient(180deg, #1f2a44 0%, #0f1626 100%);
+  color: #fff;
+  font-size: 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+
+.btn-voltar:hover {
+  background: linear-gradient(180deg, #263453 0%, #0f1626 100%);
+
+}
+
+
